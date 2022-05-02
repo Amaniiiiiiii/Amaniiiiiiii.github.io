@@ -10,10 +10,6 @@ function staticLoadPlaces() {
     return [
         {
             name: 'Pokèmon',
-            location: {
-                lat: 52.954784,
-                lng: -1.158109,
-            },
         },
     ];
 }
@@ -66,18 +62,17 @@ function renderPlaces(places) {
     let scene = document.querySelector('a-scene');
 
     places.forEach((place) => {
-        let latitude = place.location.lat;
-        let longitude = place.location.lng;
+        // let latitude = place.location.lat;
+        // let longitude = place.location.lng;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
 
         setModel(models[modelIndex], model);
 
         model.setAttribute('animation-mixer', '');
 
         document.querySelector('button[data-action="change"]').addEventListener('click', function () {
-            var entity = document.querySelector('[gps-entity-place]');
+            var entity = document.querySelector('[position]');
             modelIndex++;
             var newIndex = modelIndex % models.length;
             setModel(models[newIndex], entity);
