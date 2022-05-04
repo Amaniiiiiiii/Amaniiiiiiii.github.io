@@ -127,7 +127,7 @@ input[type="submit"] {
 }
 
 .span1 i::before {
-	background: url(../images/home.png) no-repeat #2C51B7 14px 14px;
+	background: url(../images/adv.png) no-repeat #2C51B7 14px 14px;
 	content:"";
 	float:right;
 	padding: 46px 26px;
@@ -188,7 +188,7 @@ input[type="submit"] {
 }
 
 .span2 i::before {
-	background: url(../images/contact.png) no-repeat #DB4D4B 14px 14px;
+	background: url(../images/story.png) no-repeat #DB4D4B 14px 14px;
 	content:"";
 	float:right;
 	padding: 46px 26px;
@@ -248,7 +248,7 @@ input[type="submit"] {
 }
 
 .span3 i::before {
-	background: url(../images/art.png) no-repeat #DF4C70 14px 17px;
+	background: url(../images/help.png) no-repeat #DF4C70 14px 17px;
 	content:"";
 	float:right;
 	padding: 46px 26px;
