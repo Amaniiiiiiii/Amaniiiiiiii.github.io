@@ -16,29 +16,32 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <body>
 <!-- start-buttons -->
-<h1>Mozilla</h1>
+   <header>
+      <h1>Missaki</h1>
+      <img src="images/logo.png" alt="Meseum logo">
+   </header>
 <div class="buttons">
    <form class="search" action="#" method="post" name="contact_form">
 	    	<input type="text" name="Search" value="Search" onblur="if (this.value=='') this.value = 'Search'" onfocus="if (this.value=='Search') this.value = ''">
 	    	<input type="submit" value="GO" id="submit" name="submit">
 	    	<div class="clear"></div>
     </form>	
-    <div class="span1">
+    <div class="span1" onclick="window.open('../advmode/index.html')">
     	<a href="#">
-    		<i>Home</i>
+    		<i>Adv mode</i>
     		<div class="clear"></div>
     	</a>
     </div>
     <div class="clear"></div>	
-    <div class="span2">
+    <div class="span2" onclick="window.open('../storymode/index.html')">
     	<a href="#">
-    		<i>Profile</i><img src="images/contact.png" alt=""/>
+    		<i>Story Mode</i><img src="images/contact.png" alt=""/>
     		<div class="clear"></div>
     	</a>
     </div>
-    <div class="span3">
+    <div class="span3" onclick="window.open('../help/index.html')">
     	<a href="#">
-    		<i>Home</i><img src="images/art.png" alt=""/>
+    		<i>Help</i><img src="images/art.png" alt=""/>
     		<div class="clear"></div>
     	</a>
     </div>
