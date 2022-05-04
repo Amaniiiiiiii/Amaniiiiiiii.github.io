@@ -19,7 +19,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- start-buttons -->
    <header>
       <h1>Adv</h1>
-      <img src="images/logo.png" alt="Meseum logo">
+      <img src="images/logo.png" alt="Meseum logo" onclick="window.open('../ar/index.html')">
    </header>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
@@ -42,7 +42,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#" onclick="window.open('../ar/index.html')" >About</a>
         </li>
       </ul>
       <form class="d-flex">
@@ -64,7 +64,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 
 <menu class="menu" id="menu">
-        <nav class="active">二维码扫描</nav> |
+        <nav class="active">点我开始扫描二维码</nav> |
     </menu>
 
     <hr />
@@ -80,7 +80,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </button>
             <div class="imgurl">
                 <img id="imgurl"
-                    src="images/qrcode.jpg"
+                    src="images/bgground.png"
                     alt="当前识别的二维码" />
             </div>
             <textarea class="result" id="result" cols="32" rows="6" placeholder="二维码识别结果！"></textarea>
@@ -155,6 +155,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             }
         });
     </script>
-    <button type="button" onclick="window.open('../ar/index.html')">点我!</button>
+<!--     <button type="button" onclick="window.open('../ar/index.html')">点我!</button> -->
 </body>
 </html>
