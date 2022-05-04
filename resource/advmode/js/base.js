@@ -79,6 +79,7 @@
             }
         };
 
+// 切换到扫描模式
         sweep() {
             this.isAnimation = true;
             this.cvsele.style.display = "block";
@@ -125,6 +126,7 @@
             };
         };
 
+// 上传文件
         upload() {
             this.cance();
             const file = this.file.files[0];
@@ -146,6 +148,7 @@
                         this.error("识别失败，请检查二维码是否正确！", err);
                     } finally {
                         console.info("读取到的文件：", res);
+                        window.open( "http://www.baidu.com" ) ;
                     }
                 }).catch((err) => {
                     this.error("文件读取错误：", err);
