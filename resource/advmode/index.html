@@ -36,23 +36,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#" onclick="window.open('../map/index.html')">map </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Pricing</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-            <div class="dropdown-divider"></div>
-            <a class="dropdown-item" href="#">Separated link</a>
-          </div>
         </li>
       </ul>
       <form class="d-flex">
@@ -100,7 +90,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
     <!-- 二维码生成 -->
     <script src="./js/qrcode.js"></script>
-    <script style="display: none;">
+    <script >
         const text = document.querySelector('#code');
         const qrcode = new QRCode(document.querySelector('#qrcode'), {
             text: "http://www.muguilin.com",
