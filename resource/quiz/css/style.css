@@ -481,3 +481,7 @@ button#two:focus
     transition-duration: 0.4s;
     border-radius: 8px;
 }
+
+h2{
+	font-size: 40px;
+}
